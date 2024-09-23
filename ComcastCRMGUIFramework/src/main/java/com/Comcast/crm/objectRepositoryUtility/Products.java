@@ -20,11 +20,11 @@ public class Products {
 	public WebElement getSearchbox() {
 		return searchbox;
 	}
-	@FindBy(xpath="//input[@value=' Search Now '][1]")
-	private WebElement searchBtn;
-
-	public WebElement getSearchBtn() {
-		return searchBtn;
-	}
+	/*
+	 * @FindBy(xpath="//input[@value=' Search Now '][1]") private WebElement
+	 * searchBtn;
+	 * 
+	 * public WebElement getSearchBtn() { return searchBtn; }
+	 */
 }
 
