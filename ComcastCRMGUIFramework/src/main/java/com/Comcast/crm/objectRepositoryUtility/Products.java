@@ -13,5 +13,12 @@ public class Products {
 
 	@FindBy(xpath="//img[@alt='Create Product...']")
 	private WebElement createProductImgBtn;
+	
+	@FindBy(xpath="//input[@value=' Search Now '][1]")
+	private WebElement searchBtn;
+
+	public WebElement getSearchBtn() {
+		return searchBtn;
+	}
 }
 
